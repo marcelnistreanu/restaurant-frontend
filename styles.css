@@ -17,7 +17,7 @@ img{
 .logo{
     margin: 14px;
     color: white;
-    font-family: 'Domine', serif;
+    font-family: 'Charm', cursive;
     font-size: 20px;
     padding-left: 1cm;
 }
@@ -48,14 +48,14 @@ img{
 }
 
 .paragraf2{
-    background-color: black;
+    background-color: #171717;
 }
 
 .titlu-paragraf2{
     padding-top: 5cm;
     color: white;
     padding-left: 4cm;
-    font-family: 'Playfair Display', cursive;
+    font-family: 'Lora', serif;
 }
 
 .titlu-fav1{
@@ -88,5 +88,73 @@ img{
     padding-bottom: 5cm;
     font-family: 'Nunito Sans', sans-serif;
 }
+
+.contacte{
+    padding: 4cm;
+    font-family: 'EB Garamond', serif;
+}
+
+.mail{
+    color: black;
+}
+
+
+.footer{
+    background-color: black;
+    padding: 3px;
+}
+
+p{
+    color: white;
+}
+
+.social{
+    max-width: 30px;
+    height: 30px;
+}
+
+.titlu_despre{
+    font-family: "Lato", sans-serif;
+    padding-top: 4cm;
+    padding-bottom: 2cm;
+}
+
+.founder_pic{
+    max-width: 65%;
+    max-height: 65%;
+    padding-left: 2cm;
+    padding-right: 1cm;
+}
+
+.founder_nume{
+    padding-top: 2.5cm;
+    font-family: 'EB Garamond', serif;
+}
+
+
+.founder_history{
+    color: black;
+    padding-right: 2cm;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+u{
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}
+
+
+
+.carousel{
+    padding-top: 2cm;
+}
+
+.titlu_concepte{
+    font-family: "Lato", sans-serif;
+    padding-top: 5cm;
+}
+
+
+
 
 
