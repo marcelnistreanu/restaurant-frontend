@@ -1,38 +1,49 @@
-<?php require_once("includes/header.php") ?>
+<?php require_once("includes/header.inc.php") ?>
 
     <img src="images/fine-dining.jpg" alt="">
 
+    <div class="container">
+        <div class="row">
+            <h2 class="text-container text-center">
+                Marcelino, restaurant de tip fine-dining cu un meniu select de mancăruri din dieta 
+                mediteranean-europeană și vinuri alese pentru gustul fiecărui client.Este locul care 
+                oferă o experiență culinară maximă, unde satisfacția clienților este pe primul loc. 
+                Design-ul interior minimalist modern creează o atmosferă relaxantă și 
+                liniștitoare, iar chelnerii Marcelino vă vor deservi la cel mai înalt nivel.
+            </h2>  
+        </div>
+    </div>
     <div class="container text-center">
-        <h2 class="text-container">
-            Marcelino, restaurant de tip fine-dining cu un meniu select de mancăruri din dieta 
-            mediteranean-europeană și vinuri alese pentru gustul fiecărui client.Este locul care 
-            oferă o experiență culinară maximă, unde satisfacția clienților este pe primul loc. 
-            Design-ul interior minimalist modern creează o atmosferă relaxantă și 
-            liniștitoare, iar chelnerii Marcelino vă vor deservi la cel mai înalt nivel.
-        </h2>  
+
     </div>
 
     <div class="paragraf2">
         <h1 class="titlu-paragraf2">
             Preferatele noastre —
         </h1>
-        <div class="d-flex justify-content-between"> 
-            <div>
-                <h2 class="titlu-fav1">Piept de rață cu sos de coacăze</h2>
-    
-                <h6 class="text-fav1">
-                    Pieptul de rață prăjit la tigaie pe foc viu, crocant la exterior și moale în interior, acompaniat de un sos de 
-                    coacăze roșii dulce acrișor,vor răsfăța papilele gustative ale clienților noștri.
-                </h6>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h2 class="titlu-fav1">Piept de rață cu sos de coacăze</h2>
+        
+                    <h6 class="text-fav1">
+                        Pieptul de rață prăjit la tigaie pe foc viu, crocant la exterior și moale în interior, acompaniat de un sos de 
+                        coacăze roșii dulce acrișor,vor răsfăța papilele gustative ale clienților noștri.
+                    </h6>
+                </div>
+                
+                <div class="col-sm-12 col-md-6">
+                    <h2 class="titlu-fav2">Tartar de ton cu avocado</h2>
+        
+                    <h6 class="text-fav2">
+                        Tonul tăiat fin în cuburi, asezonat cu sos de soia și lime pe un pat de carpacio de castraveți, stropiți cu ulei 
+                        de susan, este combinația perfectă pentru un fel de mâncare fresh.
+                    </h6>
+                </div>
             </div>
-            <div>
-                <h2 class="titlu-fav2">Tartar de ton cu avocado</h2>
-    
-                <h6 class="text-fav2">
-                    Tonul tăiat fin în cuburi, asezonat cu sos de soia și lime pe un pat de carpacio de castraveți, stropiți cu ulei 
-                    de susan, este combinația perfectă pentru un fel de mâncare fresh.
-                </h6>
-            </div>
+        </div>
+        
+            
         </div>
     </div>
 
@@ -59,4 +70,4 @@
         </div>
     </div>
 
-<?php require_once("includes/footer.php") ?>
+<?php require_once("includes/footer.inc.php") ?>

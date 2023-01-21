@@ -1,40 +1,46 @@
-<?php require_once("includes/header.php") ?>
+<?php require_once("includes/header.inc.php") ?>
 
     <h1 class="titlu_despre text-center"><u>ABOUT</u></h1>
-    <div class="d-flex justify-content-between" style="padding-bottom: 5cm;">
-        <img class="founder_pic" src="images/fondator.jpg" alt="">
+    
+        
             
-        <div>
-            <h2 class="founder_nume">Marcel Nistreanu</h2>
-            <p class="founder_history">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sagittis ante. 
-                Vestibulum metus quam, viverra id mi sit amet, efficitur sagittis felis. Class aptent
-                taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-                Cras at sapien eget turpis porta pellentesque at eu ex. Praesent eget augue nibh. 
-                Praesent sit amet enim vehicula, aliquam ligula vel, fringilla ante. Donec dictum 
-                tellus quis lobortis tincidunt. Phasellus dui neque, tempus vitae volutpat sit amet, 
-                tempor ut massa. Cras posuere velit et blandit vestibulum. Pellentesque sed congue 
-                leo. Vivamus sagittis interdum ex, ut aliquet tellus sagittis laoreet.
-            </p>
+        <div class="container pb-5">
+          <div class="row">
+            <img class="founder_pic col-md-6" src="images/fondator.jpg" alt="">
+            <div class="col-md-6">
+              <h2 class="founder_nume">Marcel Nistreanu</h2>
+              <p class="founder_history">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sagittis ante. 
+                  Vestibulum metus quam, viverra id mi sit amet, efficitur sagittis felis. Class aptent
+                  taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                  Cras at sapien eget turpis porta pellentesque at eu ex. Praesent eget augue nibh. 
+                  Praesent sit amet enim vehicula, aliquam ligula vel, fringilla ante. Donec dictum 
+                  tellus quis lobortis tincidunt. Phasellus dui neque, tempus vitae volutpat sit amet, 
+                  tempor ut massa. Cras posuere velit et blandit vestibulum. Pellentesque sed congue 
+                  leo. Vivamus sagittis interdum ex, ut aliquet tellus sagittis laoreet.
+              </p>
+            </div>
+          </div>
         </div>
+        
     </div>
 
     
     
     <div style="background-color: #171717;">
-        <h1 class="text-center" style="padding-top: 4cm; font-family: Lato, sans-serif; color: white;"><u style="border-bottom: 2px solid white;">Echipa restaurantului Marcelino</u></h1>
+        <h1 class="text-center" style="padding-top: 4cm; font-family: Poppins, sans-serif; color: white;"><u style="border-bottom: 2px solid white;">Echipa restaurantului Marcelino</u></h1>
+        <div class="d-flex justify-content-center" style="padding-top: 2cm">
+          <div class="card" style="width: 40rem;">
+              <img src="images/fondator.jpg" class="card_ceo" alt="">
+              <div class="card-body">
+                  <h5 class="card-title">CEO</h5>
+                  <p class="card-text" style="color: black;">Marcel Nistreanu</p>
+              </div>
+          </div>
+        </div>
         <div class="echipa container" style="padding-bottom: 4cm;">
-            <div class="row">
-                <div class="d-flex justify-content-between">
-                        <div class="card" style="width: 20rem;">
-                            <img src="images/fondator.jpg" class="card-img-top" alt="">
-                            <div class="card-body">
-                              <h5 class="card-title">CEO</h5>
-                              <p class="card-text" style="color: black;">Marcel Nistreanu</p>
-                            </div>
-                        </div>
-                    
-                        <div class="card" style="width: 30rem;">
+            <div class="row">        
+                        <div class="card col-sm-12 col-md-6 mb-sm-5">
                             <img src="images/chef.jpg" class="card-img-top" alt="">
                             <div class="card-body">
                               <h5 class="card-title">Chef</h5>
@@ -42,14 +48,14 @@
                             </div>
                         </div>
                     
-                        <div class="card" style="width: 20rem;">
+                        <div class="card col-sm-12 col-md-6 mb-sm-5">
                             <img src="images/chelner.jpg" class="card-img-top"  alt="">
                             <div class="card-body">
                               <h5 class="card-title">Chelner</h5>
                               <p class="card-text" style="color: black;">Vasile Vasilescu</p>
                             </div>
                         </div>
-                </div>
+                
             </div>
         </div>
     </div>
@@ -108,4 +114,4 @@
         </button>
     </div>
 
-<?php require_once("includes/footer.php") ?>
+<?php require_once("includes/footer.inc.php") ?>

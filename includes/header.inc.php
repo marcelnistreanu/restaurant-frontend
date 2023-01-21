@@ -16,7 +16,6 @@
         <p class="logo">MARCELINO</p>
         <ul class="main-navbar-links d-flex align-items-center">
             <li><a class="main-navbar-link" style="text-decoration:none" href="index.php">ACASĂ</a></li>
-            <li><a class="main-navbar-link" style="text-decoration:none" href="meniu.php">MENIU</a></li>
             <li><a class="main-navbar-link" style="text-decoration:none" href="login.php">LOGIN</a></li>
             <li><a class="main-navbar-link" style="text-decoration:none" href="about.php">ABOUT</a></li>
         </ul>
